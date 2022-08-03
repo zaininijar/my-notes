@@ -1,0 +1,7 @@
+Maybe Your $PATH variable doesn't contain the default paths? echo $PATH should give something like:
+
+[root@server ~]# echo $PATH
+/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+
+If it's empty, You may set the PATH variable with this command
+export PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin"
